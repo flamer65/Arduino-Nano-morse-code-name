@@ -9,6 +9,7 @@ pinMode (LED_BUILTIN, OUTPUT);
 
 void loop() {
   // put your main code here, to run repeatedly:
+  string names = digitalRead(name);
   for(int i = 0; i < name.length(); i++)
   {
     character(name[i]);
@@ -133,7 +134,7 @@ void character( char A)
   }
   if(A == 'P' || A =='p')
   {
-    switchON(occurence*1);
+    dot();
     dash();
     dash();
     dot();
