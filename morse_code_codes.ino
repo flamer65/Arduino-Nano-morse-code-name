@@ -14,193 +14,202 @@ void loop() {
     character(name[i]);
   }
 }
+void dot()
+{
+  switchON(occurence*1);
+}
+void dash()
+{
+  switchON(occurence*3);
+}
+
 void character( char A)
 {
   if( A == 'A' || A == 'a')
   {
-      switchON(occurence*1);
-   switchON(occurence*3);
-   delay(occurence*2);
+     dot();
+     dash();
+     delay(occurence*2);
 
   }
   if(A == 'B' || A == 'b')
   {
-    switchON(occurence*3);
-    switchON(occurence*1);
-    switchON(occurence*1);
-    switchON(occurence*1);
+    dash();
+    dot();
+    dot();
+    dot();
     delay(occurence*2);
   }
   if (A == 'C' || A == 'c')
   {
-   switchON(occurence*3);
-   switchON(occurence*1);
-    switchON(occurence*3);
+    dash();
+    dot();
+    dash();
     delay(occurence*2);  
   }
   if(A == 'D' || A =='d')
   {
-    switchON(occurence*3);
-    switchON(occurence*1);
-    switchON(occurence*1);
+    dash();
+    dot();
+    dot();
     delay(occurence*2);  
   }
   if(A =='E' || A == 'e')
   {
-     switchON(occurence*1);
+     dot();
     delay(occurence*2);  
     
   }
   if(A == 'F' || A == 'f' )
   {
-     switchON(occurence*1);
-    switchON(occurence*1);
-    switchON(occurence*3);
-    switchON(occurence*1);
+    dot();
+    dot();
+    dash();
+    dot();
     delay(occurence*2);  
   }
   if(A == 'G' || A == 'g')
   {
-    switchON(occurence*3);
-    switchON(occurence*3);
-     switchON(occurence*1);
+     dash();
+     dash();
+     dot();
      delay(occurence*2);   
   }
   if(A == 'H' || A == 'h' )
   {
-    switchON(occurence*1);
-    switchON(occurence*1);
-    switchON(occurence*1);
-    switchON(occurence*1);
+    dot();
+    dot();
+    dot();
+    dot();
     delay(occurence*2);
   }
   if(A =='I' || A =='i')
   {
-     switchON(occurence*1);
-    switchON(occurence*1);
+    dot();
+    dot();
     delay(occurence*2);
   }
   if(A == 'J' || A == 'j')
   {
-     switchON(occurence*1);
-     switchON(occurence*3);
-    switchON(occurence*3);
-    switchON(occurence*3);
+     dot();
+     dash();
+     dash();
+     dash();
     delay(occurence*2);
   }
   if(A == 'K' || A == 'k' )
   {
-    switchON(occurence*3);
-    switchON(occurence*1);
-    switchON(occurence*3);
+    dash();
+    dot();
+    dash();
     delay(occurence*2);   
   }
   if(A == 'L' || A =='l')
   {
-    switchON(occurence*1);
-    switchON(occurence*3);
-    switchON(occurence*1);
-    switchON(occurence*1);
+    dot();
+    dash();
+    dot();
+    dot();
     delay(occurence*2);  
   }
   if(A == 'M' || A == 'm' )
   {
-     switchON(occurence*3);
-     switchON(occurence*3);
+     dash();
+     dash();
      delay(occurence*2);
   }
   if(A == 'N' || A == 'n')
   {
-     switchON(occurence*3);
-     switchON(occurence*1);
+     dash();
+     dot();
      delay(occurence*2);
   }
   if(A == 'O'|| A =='o')
   {
-    switchON(occurence*3);
-    switchON(occurence*3);
-    switchON(occurence*3);
+    dash();
+    dash();
+    dash();
     delay(occurence*2);   
   }
   if(A == 'P' || A =='p')
   {
     switchON(occurence*1);
-    switchON(occurence*3);
-    switchON(occurence*3);
-    switchON(occurence*1);
+    dash();
+    dash();
+    dot();
     delay(occurence*2);    
   }
   if(A =='Q' || A =='q')
   {
-     switchON(occurence*3);
-     switchON(occurence*3);
-     switchON(occurence*1);
-     switchON(occurence*3);
+     dash();
+     dash();
+     dot();
+     dash();
      delay(occurence*2); 
   }
   if(A == 'R' || A == 'r')
   {
-    switchON(occurence*1);
-    switchON(occurence*3);
-    switchON(occurence*1);
+    dot();
+    dash();
+    dot();
     delay(occurence*2);   
   }
   if(A =='S'|| A == 's')
   {
-    switchON(occurence*1);
-    switchON(occurence*1);
-    switchON(occurence*1);
+    dot();
+    dot();
+    dot();
     delay(occurence*2);  
   }
   if(A =='T' || A =='t')
   {
-    switchON(occurence*3);
+    dash();
     delay(occurence*2);
   }
   if(A =='U' || A == 'u')
   {
-    switchON(occurence*1);
-    switchON(occurence*1);
-    switchON(occurence*3);
+    dot();
+    dot();
+    dash();
     delay(occurence*2);   
   }
   if(A == 'V' || A == 'v' )
   {
-    switchON(occurence*1);
-    switchON(occurence*1);
-    switchON(occurence*1);
-    switchON(occurence*3);
+    dot();
+    dot();
+    dot();
+    dash();
     delay(occurence*2);
   }
   if(A == 'W' || A == 'w')
   {
-    switchON(occurence*1);
-    switchON(occurence*3);
-    switchON(occurence*3);
+    dot();
+    dash();
+    dash();
     delay(occurence*2);  
   }
   if(A == 'X' || A == 'x')
   {
-    switchON(occurence*3);
-    switchON(occurence*1);
-    switchON(occurence*1);
-    switchON(occurence*3);
+    dash();
+    dot();
+    dot();
+    dash();
     delay(occurence*2);
   }
   if(A == 'Y' || A =='y')
   {
-    switchON(occurence*3);
-    switchON(occurence*1);
-    switchON(occurence*3);
-    switchON(occurence*3);
+    dash();
+    dot();
+    dash();
+    dash();
     delay(occurence*2);
   }
   if(A == 'Z' || A == 'z')
   {
-    switchON(occurence*3);
-    switchON(occurence*3);
-    switchON(occurence*1);
-    switchON(occurence*1);
+    dash();
+    dash();
+    dot();
+    dot();
     delay(occurence*2);
   }
  }
